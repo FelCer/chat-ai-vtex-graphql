@@ -1,6 +1,6 @@
 type Query {
   _empty: String
-  getQuestion: ResponseQuestion
+  getQuestion: [ResponseQuestion]
 }
 
 type Mutation {

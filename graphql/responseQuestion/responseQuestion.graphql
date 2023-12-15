@@ -1,9 +1,12 @@
 type ResponseQuestion {
-  message: String!
-  id: String!
-  question: String!
-  answer: String!
-  answered: String!
-  userId: String!
-  createAt: String!
+  id: ResponseFormatQuestion!
+  question: ResponseFormatQuestion!
+  answer: ResponseFormatQuestion!
+  answered: ResponseFormatQuestion!
+  userId: ResponseFormatQuestion!
+  createAt: ResponseFormatQuestion!
+}
+
+type ResponseFormatQuestion {
+  S : String!
 }

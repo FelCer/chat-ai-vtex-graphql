@@ -1,0 +1,13 @@
+type Query {
+  _empty: String
+  getQuestion: ResponseQuestion
+}
+
+type Mutation {
+  sendMessageChatAi(data: ISendMessage): ResponseMessage
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

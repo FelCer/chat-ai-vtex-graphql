@@ -1,0 +1,9 @@
+type ResponseQuestion {
+  message: String!
+  id: String!
+  question: String!
+  answer: String!
+  answered: String!
+  userId: String!
+  createAt: String!
+}

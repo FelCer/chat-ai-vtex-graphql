@@ -1,0 +1,15 @@
+input ISendMessage {
+  user: IUser
+  message: IMessage
+}
+
+input IUser {
+  name: String
+  email: String
+}
+
+input IMessage {
+  id: String
+  text: String
+  internalId: String
+}

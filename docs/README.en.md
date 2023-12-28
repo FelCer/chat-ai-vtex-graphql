@@ -1,4 +1,4 @@
-# EJEMPLO-CHAT-VTEX-GRAPHQL
+# EXAMPLE-CHAT-VTEX-GRAPHQL
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -8,38 +8,38 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-Cambiar lenguaje de README a [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/FelCer/chat-ai-vtex-graphql/blob/main/docs/README.en.md)
+Change language from README to [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/FelCer/chat-ai-vtex-graphql/blob/main/docs/README.md)
 
-Componente que simula un chat comunicado con chat AI de AWS
+Component that simulates a chat communicated with AWS Chat AI
 
 <br>
 
-## Implementación
+## Implementation
 
-1. Importar `{{vendor}}.chat-ai-graphql` en el archivo `manifest.json` del tema de IO.
+1. Import `{{vendor}}.chat-ai` into the IO theme's `manifest.json` file.
 
 ```
   "dependencies": {
-    // Validar la versión que se encuentra la aplicación.
-    "{{vendor}}.chat-ai-graphql": "0.x",
+    // Validate the version that the application is found.
+    "{{vendor}}.chat-ai": "0.x",
   }
+
 ```
 
-## Ejemplo de uso
+## Example use
 
-Esta aplicación maneja eventos enviados para un lambda en AWS
+This app handles events sent for a lambda in AWS
 
 ```
 POST --> /dev/send-message
 GET  --> /dev/get-questions
 ```
 
-
 <!-- DOCS-IGNORE:start -->
 
-## Colaboradores ✨
+## Contributors ✨
 
-Gracias a estas maravillosas personas: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <table>
   <tr>
